@@ -367,6 +367,12 @@ ul {
   text-overflow: ellipsis;
 }
 
+.article-container:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
 .article {
   width: calc(100% - 81px);
   height: 85%;
